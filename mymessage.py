@@ -49,6 +49,6 @@ server.starttls()
 
 server.login(username,password)
 
-server.sendmail(fromaddr, toaddrs, messagetosend)
+server.sendmail(fromaddr, toaddr, messagetosend)
 
 server.quit()
